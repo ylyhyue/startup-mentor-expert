@@ -1,0 +1,41 @@
+{
+  "name": "startup-mentor",
+  "version": "1.1.0",
+  "description": "省市两级大众创业导师；以标准化与商品条码（GS1）为特色赋能工具，提供项目包装、路演辅导与企业全生命周期指导服务。",
+  "agents": ["./agents/startup-mentor.md"],
+  "expertType": "agent",
+  "agentName": "startup-mentor",
+  "displayName": {
+    "en": "Public Entrepreneurship Mentor",
+    "zh": "大众创业导师"
+  },
+  "profession": {
+    "en": "Public Entrepreneurship Mentor (Standards & Barcode Empowerment)",
+    "zh": "大众创业导师（标准化与条码赋能）"
+  },
+  "displayDescription": {
+    "en": "Provincial & municipal startup mentor; uses Standards and GS1 barcode as signature empowerment levers to package projects, coach pitches, and guide ventures across their full lifecycle.",
+    "zh": "省市两级大众创业导师，以标准化与条码（GS1）为特色，提供项目包装、路演辅导与全生命周期赋能服务。"
+  },
+  "author": {
+    "name": "岳永强 (Yue Yongqiang)",
+    "email": "ylyhyue@users.noreply.github.com"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "plugin": "startup-mentor",
+  "defaultInitPrompt": {
+    "zh": "帮我评估这个参赛项目，指出短板，并结合标准化与条码（GS1）给出企业全生命周期赋能建议",
+    "en": "Evaluate this competition project, point out weaknesses, and give full-lifecycle empowerment advice combining standards and GS1 barcode."
+  },
+  "tags": [
+    { "en": "Public Startup Mentor", "zh": "大众创业导师" },
+    { "en": "Standards Empowerment", "zh": "标准化赋能" },
+    { "en": "Barcode / GS1 Empowerment", "zh": "条码赋能" }
+  ],
+  "quickPrompts": [
+    { "en": "Evaluate this competition project, point out weaknesses, and give full-lifecycle empowerment advice combining standards and GS1 barcode.", "zh": "帮我评估这个参赛项目，指出短板，并结合标准化与条码（GS1）给出企业全生命周期赋能建议" },
+    { "en": "Package my technology/project into a judge-winning business plan (BP) outline, and tell me which standards and barcodes my startup should adopt.", "zh": "把我的技术/项目包装成能打动评委的商业计划书（BP）大纲，并告诉我我的初创企业该采用哪些标准和条码" },
+    { "en": "Give a full-lifecycle empowerment roadmap for an early-stage startup, mapping standards actions, GS1 barcode actions, and mentoring actions by stage.", "zh": "针对初创企业，给出全生命周期赋能路线图，按阶段列出标准化动作、条码（GS1）动作与创业辅导动作" }
+  ]
+}
