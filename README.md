@@ -72,7 +72,12 @@ startup-mentor-expert/
 │       ├── .codebuddy-plugin/plugin.json
 │       ├── agents/startup-mentor.md
 │       ├── README.md
-│       └── avatars/expert.png
+│       ├── avatars/expert.png
+│       └── skills/             # 独立细分板块（Skill）
+│           └── transport-logistics-track/
+│               ├── SKILL.md
+│               ├── references/交通智慧物流赛道赋能方法论.md
+│               └── scripts/gen_diagnosis.py
 ├── README.md
 └── LICENSE
 ```
@@ -89,6 +94,13 @@ startup-mentor-expert/
 - 确立"企业全生命周期指导与赋能"为主线服务，新增《企业全生命周期赋能地图》特色交付物。
 - 资质锚定补充：主参与起草/修订 T/CABC 18.1-2025、参与 GS1 绿色城配课题、参与评审营商环境 4 项团体标准。
 - 本专家独立成仓、独立发布，不与其他专家混合打包。
+
+### v1.2.0（2026-07-31，新增独立细分板块）
+- 在专家之下新增**独立 Skill 板块「交通 / 智慧物流赛道赋能」**（`skills/transport-logistics-track/`），作为创业导师能力的赛道专精扩展，**单独呈现、可单独调用**。
+- 板块内容：赛道专属诊断（通用 6 维 + 物流专项维度）、物流标准化赋能映射（GB/T 28577 等）、条码/GS1 物流赋能映射（GTIN、GS1-128 箱码、EPCIS 事件追溯、多式联运数据资产）、赛道版 BP 包装、全生命周期赋能路线图（交通物流版）。
+- 配套交付物脚本 `scripts/gen_diagnosis.py`，可一键生成交通/智慧物流赛道诊断报告 Markdown。
+- 在 `plugin.json` 中通过 `skills` 字段正式声明该模块；领域锚定基于平顶山多式联运平台建设、GS1 绿色城配课题等真实经验。
+- 本专家仍独立成仓、独立发布，不与其他专家混合打包。
 
 ---
 
