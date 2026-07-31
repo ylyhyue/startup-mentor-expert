@@ -1,0 +1,11 @@
+{
+  "name": "startup-mentor-expert",
+  "description": "大众创业导师（标准化与条码赋能）独立专家市场：省市两级创业导师，以标准化体系与商品条码（GS1）为特色杠杆，提供项目包装、路演辅导与企业全生命周期赋能指导。",
+  "plugins": [
+    {
+      "name": "startup-mentor",
+      "source": "./plugins/startup-mentor",
+      "description": "省市两级大众创业导师；以标准化与商品条码（GS1）为特色赋能工具，提供项目包装、路演辅导与企业全生命周期指导服务。"
+    }
+  ]
+}
