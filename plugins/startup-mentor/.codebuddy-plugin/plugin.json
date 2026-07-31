@@ -1,8 +1,9 @@
 {
   "name": "startup-mentor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "省市两级大众创业导师；以标准化与商品条码（GS1）为特色赋能工具，提供项目包装、路演辅导与企业全生命周期指导服务。",
   "agents": ["./agents/startup-mentor.md"],
+  "skills": ["./skills/transport-logistics-track"],
   "expertType": "agent",
   "agentName": "startup-mentor",
   "displayName": {
